@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/images.ico" alt="Biblio" width="40" height="40">
+                <span>Story Trade</span>
+              </a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Livres.html">Livre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Auteur.html">Auteur</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Utilisateur.html">Utilisateur</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mon Compte
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./AddLivre.html">Ajouter Livre</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="py-5 text-center container-fluid" style="background-color: hsl(0, 0%, 14%);">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light" style="color: rgb(184, 191, 197);">Découvrez, échangez, voyagez - à chaque livre, une nouvelle aventure!</h1>
+            </div>
+          </div>
+        </section>
+        <div class="album py-5 bg-body-tertiary">
+          <div class="container-fluid" style="margin-left: 5px;">
+            <h2 class="display-1">Derniers livres ajoutés</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 g-3" style="margin-top: 10px;">
+                <div class="col">
+                    <div class="card h-100" style="width: 12rem;">
+                      <img src="./img/im-livres/harryPotterT1.jpg" class="card-img-top" alt="harryPotterT1">
+                      <div class="card-body">
+                        <h5 class="card-title">Harry Potter à l'école des sorciers</h5>
+                        <p class="card-text" style="height: 100px; overflow: hidden; text-overflow: ellipsis;">Premier tome de la série Harry Potter, il raconte l'histoire d'un jeune sorcier, Harry Potter, qui découvre qu'il est un sorcier et intègre Poudlard, une école de sorcellerie.</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Auteur : J.K. Rowling</li>
+                        <li class="list-group-item">Editeur : Gallimard Jeunesse 1998</li>
+                        <li class="list-group-item">Utilisateur : king</li>
+                      </ul>
+                      <div class="card-body">
+                        <a href="#" class="card-link">Livre</a>
+                        <a href="#" class="card-link">Auteur</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100" style="width: 12rem;">
+                      <img src="./img/im-livres/Seigneur-des-anneaux.jpg" class="card-img-top" alt="Seigneur-des-anneaux">
+                      <div class="card-body">
+                        <h5 class="card-title">Le Seigneur des Anneaux</h5>
+                        <p class="card-text" style="height: 100px; overflow: hidden; text-overflow: ellipsis;">Trilogie épique de fantasy qui se déroule dans un monde fictif appelé la Terre du Milieu. L'histoire suit la quête de l'anneau unique pour détruire le Seigneur Sauron.</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Auteur : J.R.R. Tolkien</li>
+                        <li class="list-group-item">Editeur : Christian Bourgois Éditeur 1954-1955</li>
+                        <li class="list-group-item">Utilisateur : Rudiger</li>
+                      </ul>
+                      <div class="card-body">
+                        <a href="#" class="card-link">Livre</a>
+                        <a href="#" class="card-link">Auteur</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                <div class="card h-100" style="width: 12rem;">
+                  <img src="./img/im-livres/models.jpg" class="card-img-top" alt="models">
+                  <div class="card-body">
+                    <h5 class="card-title">Models</h5>
+                    <p class="card-text" style="height: 100px; overflow: hidden; text-overflow: ellipsis;">Models est le premier livre jamais écrit sur la séduction en tant que processus émotionnel plutôt que logique, un processus de connexion avec les femmes plutôt que de les impressionner.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Auteur : Mark Manson</li>
+                    <li class="list-group-item">Editeur : CreateSpace Independent Publishing Platform (28 juillet 2011)</li>
+                    <li class="list-group-item">Utilisateur : Bunny999</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Livre</a>
+                    <a href="#" class="card-link">Auteur</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 12rem;">
+                  <img src="./img/im-livres/shadow-slave.jpg" class="card-img-top" alt="shadow-slave">
+                  <div class="card-body">
+                    <h5 class="card-title">Shadow Slave</h5>
+                    <p class="card-text" style="height: 100px; overflow: hidden; text-overflow: ellipsis;">Growing up in poverty, Sunny never expected anything good from life. However, even he did not anticipate being chosen by the Nightmare Spell and becoming one of the Awakened - an elite group of people gifted with supernatural powers. Transported into a ruined magical world, he found himself facing against terrible monsters - and other Awakened - in a deadly battle of survival.
+                      What's worse, the shadow powers he received happened to possess a small, but potentially fatal side effect...</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Auteur : Guiltythree</li>
+                    <li class="list-group-item">Editeur : Kindle 25 juillet 2022</li>
+                    <li class="list-group-item">Utilisateur : Walter5</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Livre</a>
+                    <a href="#" class="card-link">Auteur</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 12rem;">
+                  <img src="./img/im-livres/the-subtil-art.jpg" class="card-img-top" alt="the-subtil-art-of-not-giving-a-fuck">
+                  <div class="card-body">
+                    <h5 class="card-title">The subtil art of not giving a fuck</h5>
+                    <p class="card-text" style="height: 100px; overflow: hidden; text-overflow: ellipsis;">For decades, we’ve been told that positive thinking is the key to a happy, rich life. "F**k positivity," Mark Manson says. "Let’s be honest, shit is f**ked and we have to live with it." In his wildly popular Internet blog, Manson doesn’t sugarcoat or equivocate. He tells it like it is—a dose of raw, refreshing, honest truth that is sorely lacking today. The Subtle Art of Not Giving a F**k is his antidote to the coddling, let’s-all-feel-good mindset that has infected modern society and spoiled a generation, rewarding them with gold medals just for showing up.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Auteur : Mark Manson</li>
+                    <li class="list-group-item">Editeur : CreateSpace Independent Publishing Platform (13 September 2016)</li>
+                    <li class="list-group-item">Utilisateur : Bunny999</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Livre</a>
+                    <a href="#" class="card-link">Auteur</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 12rem;">
+                  <img src="./img/im-livres/1984.jpg" class="card-img-top" alt="1984">
+                  <div class="card-body">
+                    <h5 class="card-title">1984</h5>
+                    <p class="card-text" style="height: 100px; overflow: hidden; text-overflow: ellipsis;">Roman dystopique décrivant un monde totalitaire où la pensée indépendante est criminalisée et où la surveillance de masse est omniprésente.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Auteur : George Orwell</li>
+                    <li class="list-group-item">Editeur : Secker and Warburg 1949</li>
+                    <li class="list-group-item">Utilisateur : Ted</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Livre</a>
+                    <a href="#" class="card-link">Auteur</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer class="bg-body-tertiary text-center text-lg-start" >
+        <div class="text-center container-fluid p-3" style="background-color: hsl(0, 0%, 14%); color: aliceblue;">
+          © 2024 Copyright:
+          <a href="index.html" style="color:aliceblue;">StoryTrade.com</a>
+        </div>
+      </footer>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>

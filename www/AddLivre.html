@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter Livre</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/images.ico" alt="Biblio" width="40" height="40">
+                <span>Story Trade</span>
+              </a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Livres.html">Livre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Auteur.html">Auteur</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Utilisateur.html">Utilisateur</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mon Compte
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./AddLivre.html">Ajouter Livre</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main calss="container-fluid">
+        <form action="" class="mx-5" id="livreform">
+            <div class="mb-3">
+              <label for="Title" class="form-label">Title</label>
+              <input type="text" class="form-control" name="title" id="title">
+            </div>
+            <div class="mb-3">
+              <label for="Author" class="form-label">Author</label>
+              <input type="text" class="form-control" name="author" id="author">
+            </div>
+            <div class="mb-3">
+              <label for="Editor" class="form-label">Editor</label>
+              <input type="text" class="form-control" name="editor" id="editor">
+            </div>
+            <div class="mb-3">
+              <label for="Description" class="form-label">Description</label>
+              <textarea class="form-control" name="description" id="description" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="Cover" class="form-label">Default file input example</label>
+              <input class="form-control" type="file" id="Cover">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </main>
+    <footer class="bg-body-tertiary text-center text-lg-start" >
+      <div class="text-center container-fluid p-3" style="background-color: hsl(0, 0%, 14%); color: aliceblue;">
+        © 2024 Copyright:
+        <a href="index.html" style="color:aliceblue;">StoryTrade.com</a>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/livreform.js"></script>
+</body>
+</html>
