@@ -52,19 +52,19 @@
     <main calss="container-fluid">
         <form action="" class="mx-5" id="livreform">
             <div class="mb-3">
-              <label for="Title" class="form-label">Title</label>
+              <label for="title" class="form-label">Title</label>
               <input type="text" class="form-control" name="title" id="title">
             </div>
             <div class="mb-3">
-              <label for="Author" class="form-label">Author</label>
+              <label for="author" class="form-label">Author</label>
               <input type="text" class="form-control" name="author" id="author">
             </div>
             <div class="mb-3">
-              <label for="Editor" class="form-label">Editor</label>
+              <label for="editor" class="form-label">Editor</label>
               <input type="text" class="form-control" name="editor" id="editor">
             </div>
             <div class="mb-3">
-              <label for="Description" class="form-label">Description</label>
+              <label for="description" class="form-label">Description</label>
               <textarea class="form-control" name="description" id="description" rows="3"></textarea>
             </div>
             <div class="mb-3">
@@ -75,6 +75,23 @@
             </div>
             
             <button id="form" type="submit" class="btn btn-primary">Submit</button>
+
+            <div class="card h-100" style="width: 12rem;">
+              <img src="./img/im-livres/harryPotterT1.jpg" class="card-img-top" id="Cover">
+              <div class="card-body">
+                <h5 class="card-title" id="Title"></h5>
+                <p class="card-text" id="Description" style="height: 100px; overflow: hidden; text-overflow: ellipsis;"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item" id="Author">Author : </li>
+                <li class="list-group-item" id="Editor">Editor : </li>
+                <li class="list-group-item" id="User">User : </li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Livre</a>
+                <a href="#" class="card-link">Auteur</a>
+              </div>
+            </div>
         </form>
     </main>
     <footer class="bg-body-tertiary text-center text-lg-start" style="margin-top: 100px;" >
@@ -85,6 +102,6 @@
     </footer>
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/livreform.js"></script>
-    <script></script>
+    <script src="cordova.js"></script>
 </body>
 </html>
